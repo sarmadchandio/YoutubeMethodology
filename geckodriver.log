@@ -1,0 +1,347 @@
+./geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+1644519170235	geckodriver	INFO	Listening on 127.0.0.1:40779
+1644519170239	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "58433" "-no-remote" "-profile" "/tmp/rust_mozprofiledXn6Gx"
+1644519171522	Marionette	INFO	Listening on port 33507
+1644519171563	Marionette	WARN	TLS certificate errors will be ignored for this session
+1644519220274	geckodriver	INFO	Listening on 127.0.0.1:39825
+1644519220279	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "48051" "-no-remote" "-profile" "/tmp/rust_mozprofileBUCykO"
+1644519221643	Marionette	INFO	Listening on port 44341
+1644519221685	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[Parent 86817, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644519231769	geckodriver	INFO	Listening on 127.0.0.1:51345
+1644519231774	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "52443" "-no-remote" "-profile" "/tmp/rust_mozprofilejSUQ8W"
+1644519233102	Marionette	INFO	Listening on port 39493
+1644519233180	Marionette	WARN	TLS certificate errors will be ignored for this session
+1644519527347	geckodriver	INFO	Listening on 127.0.0.1:42437
+1644519527352	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "43641" "-no-remote" "-profile" "/tmp/rust_mozprofileAR7jRK"
+1644519528667	Marionette	INFO	Listening on port 42329
+1644519528757	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.youtube.com/s/desktop/e99c6741/jsbin/scheduler.vflset/scheduler.js, line 70: NS_ERROR_NOT_INITIALIZED: 
+[Parent 91492, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644519611635	geckodriver	INFO	Listening on 127.0.0.1:33669
+1644519611641	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "47201" "-no-remote" "-profile" "/tmp/rust_mozprofilefKjPcr"
+1644519613060	Marionette	INFO	Listening on port 40117
+1644519613161	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 92830, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 92767, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644519654688	geckodriver	INFO	Listening on 127.0.0.1:33347
+1644519654694	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "56839" "-no-remote" "-profile" "/tmp/rust_mozprofile3QgqkX"
+1644519655962	Marionette	INFO	Listening on port 37329
+1644519656005	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.youtube.com/s/desktop/e99c6741/jsbin/scheduler.vflset/scheduler.js, line 70: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x540027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AF,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+[Child 93657, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 93577, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644519833121	geckodriver	INFO	Listening on 127.0.0.1:48049
+1644519833125	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "53127" "-no-remote" "-profile" "/tmp/rust_mozprofileoa2cze"
+1644519834537	Marionette	INFO	Listening on port 46381
+1644519834647	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 96076, Gecko_IOThread] WARNING: pipe error (137): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644519945972	geckodriver	INFO	Listening on 127.0.0.1:55273
+1644519945977	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "45727" "-no-remote" "-profile" "/tmp/rust_mozprofile9TXECi"
+1644519947444	Marionette	INFO	Listening on port 39775
+1644519947491	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644521573426	geckodriver	INFO	Listening on 127.0.0.1:54929
+1644521573431	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "40695" "-no-remote" "-profile" "/tmp/rust_mozprofileccJmRs"
+1644521574729	Marionette	INFO	Listening on port 35739
+1644521574739	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 119098, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1644521598221	geckodriver	INFO	Listening on 127.0.0.1:40173
+1644521598225	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "53501" "-no-remote" "-profile" "/tmp/rust_mozprofile37yS66"
+1644521599522	Marionette	INFO	Listening on port 37157
+1644521599548	Marionette	WARN	TLS certificate errors will be ignored for this session
+1644522158448	geckodriver	INFO	Listening on 127.0.0.1:55367
+1644522158452	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "56563" "-no-remote" "-profile" "/tmp/rust_mozprofileSKr8iu"
+1644522159817	Marionette	INFO	Listening on port 38543
+1644522159865	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 126904, Gecko_IOThread] WARNING: pipe error (147): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 126904, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644522233948	geckodriver	INFO	Listening on 127.0.0.1:55259
+1644522233952	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "40349" "-no-remote" "-profile" "/tmp/rust_mozprofileRnvDYL"
+1644522235217	Marionette	INFO	Listening on port 40885
+1644522235264	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.youtube.com/s/desktop/e99c6741/jsbin/scheduler.vflset/scheduler.js, line 70: NS_ERROR_NOT_INITIALIZED: 
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644522251060	geckodriver	INFO	Listening on 127.0.0.1:34853
+1644522251065	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "52567" "-no-remote" "-profile" "/tmp/rust_mozprofileJhtGK5"
+1644522252457	Marionette	INFO	Listening on port 38923
+1644522252471	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644522323012	geckodriver	INFO	Listening on 127.0.0.1:59469
+1644522323017	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "43725" "-no-remote" "-profile" "/tmp/rust_mozprofileWbazJK"
+1644522324349	Marionette	INFO	Listening on port 36995
+1644522324429	Marionette	WARN	TLS certificate errors will be ignored for this session
+1644522385460	geckodriver	INFO	Listening on 127.0.0.1:37127
+1644522385464	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "51547" "-no-remote" "-profile" "/tmp/rust_mozprofileVn50js"
+1644522386759	Marionette	INFO	Listening on port 44189
+1644522386772	Marionette	WARN	TLS certificate errors will be ignored for this session
+1644522433371	geckodriver	INFO	Listening on 127.0.0.1:53471
+1644522433376	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "46081" "-no-remote" "-profile" "/tmp/rust_mozprofileUr3UIx"
+1644522434821	Marionette	INFO	Listening on port 45615
+1644522434883	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: https://www.youtube.com/s/desktop/e99c6741/jsbin/spf.vflset/spf.js, line 28: NS_ERROR_NOT_INITIALIZED: 
+[Parent 131674, Gecko_IOThread] WARNING: pipe error (136): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 131674, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644522489724	geckodriver	INFO	Listening on 127.0.0.1:49197
+1644522489729	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "56191" "-no-remote" "-profile" "/tmp/rust_mozprofilele4PUl"
+1644522491044	Marionette	INFO	Listening on port 40757
+1644522491134	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644524633572	geckodriver	INFO	Listening on 127.0.0.1:59337
+1644524633577	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "39859" "-no-remote" "-profile" "/tmp/rust_mozprofilemKyhbN"
+1644524634889	Marionette	INFO	Listening on port 39831
+1644524634995	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 160175, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644537028069	geckodriver	INFO	Listening on 127.0.0.1:47031
+1644537028073	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "41887" "-no-remote" "-profile" "/tmp/rust_mozprofileDroMW8"
+1644537029363	Marionette	INFO	Listening on port 34905
+1644537029381	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644537054689	geckodriver	INFO	Listening on 127.0.0.1:34859
+1644537054695	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "38373" "-no-remote" "-profile" "/tmp/rust_mozprofilerwQAIj"
+1644537055996	Marionette	INFO	Listening on port 42643
+1644537056016	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644537077946	geckodriver	INFO	Listening on 127.0.0.1:55837
+1644537077950	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "54311" "-no-remote" "-profile" "/tmp/rust_mozprofile6rhDAd"
+1644537079215	Marionette	INFO	Listening on port 34321
+1644537079266	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644537601751	geckodriver	INFO	Listening on 127.0.0.1:43291
+1644537601757	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "60993" "-no-remote" "-profile" "/tmp/rust_mozprofileiDdnD4"
+1644537603220	Marionette	INFO	Listening on port 36793
+1644537603271	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644537774286	geckodriver	INFO	Listening on 127.0.0.1:56803
+1644537774290	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "51681" "-no-remote" "-profile" "/tmp/rust_mozprofilewrhuZg"
+1644537775575	Marionette	INFO	Listening on port 40773
+1644537775598	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 323837, Gecko_IOThread] WARNING: pipe error (149): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644537879644	geckodriver	INFO	Listening on 127.0.0.1:34777
+1644537879649	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "38301" "-no-remote" "-profile" "/tmp/rust_mozprofileqVxaqB"
+1644537880949	Marionette	INFO	Listening on port 35789
+1644537880974	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644537905074	geckodriver	INFO	Listening on 127.0.0.1:41061
+1644537905079	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "46901" "-no-remote" "-profile" "/tmp/rust_mozprofileLnsDHd"
+1644537906362	Marionette	INFO	Listening on port 41553
+1644537906393	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.youtube.com/s/desktop/e99c6741/jsbin/spf.vflset/spf.js, line 28: NS_ERROR_NOT_INITIALIZED: 
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644538131413	geckodriver	INFO	Listening on 127.0.0.1:38053
+1644538131417	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "51073" "-no-remote" "-profile" "/tmp/rust_mozprofileSqMZpC"
+1644538132772	Marionette	INFO	Listening on port 35045
+1644538132827	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644538185939	geckodriver	INFO	Listening on 127.0.0.1:57033
+1644538185944	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "34109" "-no-remote" "-profile" "/tmp/rust_mozprofilef0yBoM"
+1644538187200	Marionette	INFO	Listening on port 41087
+1644538187262	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 330276, Gecko_IOThread] WARNING: pipe error (148): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644538207572	geckodriver	INFO	Listening on 127.0.0.1:41243
+1644538207576	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "51171" "-no-remote" "-profile" "/tmp/rust_mozprofileR9Vpfd"
+1644538208922	Marionette	INFO	Listening on port 39479
+1644538208984	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 330924, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0094,name=PContent::Msg_StartVisitedQuery) Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644538241403	geckodriver	INFO	Listening on 127.0.0.1:50185
+1644538241407	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "49653" "-no-remote" "-profile" "/tmp/rust_mozprofilemPEi5c"
+1644538242700	Marionette	INFO	Listening on port 34349
+1644538242718	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644538286258	geckodriver	INFO	Listening on 127.0.0.1:38611
+1644538286262	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "33605" "-no-remote" "-profile" "/tmp/rust_mozprofile8h5lDF"
+1644538287533	Marionette	INFO	Listening on port 33495
+1644538287570	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 332541, Gecko_IOThread] WARNING: pipe error (147): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644538312173	geckodriver	INFO	Listening on 127.0.0.1:37685
+1644538312178	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "41961" "-no-remote" "-profile" "/tmp/rust_mozprofilewDeJUj"
+1644538313523	Marionette	INFO	Listening on port 38829
+1644538313597	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644538342034	geckodriver	INFO	Listening on 127.0.0.1:49121
+1644538342038	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "48315" "-no-remote" "-profile" "/tmp/rust_mozprofileku7rzR"
+1644538343339	Marionette	INFO	Listening on port 44649
+1644538343361	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 333775, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644538364072	geckodriver	INFO	Listening on 127.0.0.1:55927
+1644538364077	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "39643" "-no-remote" "-profile" "/tmp/rust_mozprofile8NEndD"
+1644538365447	Marionette	INFO	Listening on port 43025
+1644538365486	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644538401035	geckodriver	INFO	Listening on 127.0.0.1:40211
+1644538401039	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "53433" "-no-remote" "-profile" "/tmp/rust_mozprofileJQvANB"
+1644538402406	Marionette	INFO	Listening on port 46547
+1644538402445	Marionette	WARN	TLS certificate errors will be ignored for this session
+1644538405568	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1644538407979	geckodriver	INFO	Listening on 127.0.0.1:47791
+1644538407983	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "34395" "-no-remote" "-profile" "/tmp/rust_mozprofileOjKXgC"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.youtube.com/s/desktop/e99c6741/jsbin/scheduler.vflset/scheduler.js, line 70: NS_ERROR_NOT_INITIALIZED: 
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644538409403	Marionette	INFO	Listening on port 44831
+1644538409504	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1644538442688	geckodriver	INFO	Listening on 127.0.0.1:60889
+1644538442692	mozrunner::runner	INFO	Running command: "firefox/firefox-bin" "--marionette" "--remote-debugging-port" "59421" "-no-remote" "-profile" "/tmp/rust_mozprofile6MCslh"
+1644538444136	Marionette	INFO	Listening on port 40619
+1644538444199	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
