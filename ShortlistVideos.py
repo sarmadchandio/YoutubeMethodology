@@ -1,5 +1,7 @@
 import json
 import time
+import csv
+import re
 
 from selenium import webdriver
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
@@ -8,48 +10,80 @@ from selenium.webdriver.common.by import By
 
 
 class YoutubeExplorer:
-    def __init__(self, videos):
-        self.videos = videos
-
+    def __init__(self, videos, topics):
+        self.videos = videos    # list of videos to filter
+        self.topics = topics    # list of topics to get mainstream vids
     # def check_video_stats(self):
 
-    # Takes in a topic/categroy and returns mainstream videos of that topic from youtube.
-    # Sort the search result by popularity and take first 10 links with the following filtration rules
-    # Need to extract time, views, upload date
-    def get_topic_videos(self, topic):
-        topic = topic.lower()
-        # Replace spaces with '+'
-        topic = topic.replace(' ', '+')
-        binary = FirefoxBinary('firefox/firefox-bin')
-        options = webdriver.FirefoxOptions()
-        browser = webdriver.Firefox(firefox_binary=binary, executable_path='./geckodriver', options=options)
-        browser.implicitly_wait(0.5)
-        try:
-            browser.get("https://www.youtube.com/results?search_query={}".format(topic))
-            expand_filters = browser.find_element(By.XPATH, '/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[1]/div[2]/ytd-search-sub-menu-renderer/div[1]/div/ytd-toggle-button-renderer/a/tp-yt-paper-button')
-            expand_filters.click()
-            sort_by_rating = browser.find_element(By.XPATH, '/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[1]/div[2]/ytd-search-sub-menu-renderer/div[1]/iron-collapse/div/ytd-search-filter-group-renderer[5]/ytd-search-filter-renderer[3]/a/div/yt-formatted-string')
-            # This will sort videows by views
-            sort_by_rating.click()
-            time.sleep(1)
-            browser.execute_script("window.scrollTo(0, document.documentElement.scrollHeight);")
-            time.sleep(5)
-            # views = browser.find_elements(By.XPATH, '//*[@id="metadata-line"]/span[1]')
-            vid_info = browser.find_elements(By.XPATH, '//*[@id="metadata-line"]')
-            vid_href = browser.find_elements(By.XPATH, '//*[@id="video-title"]')
-
-            print(len(vid_href))
-            print(len(vid_info))
-            # for entry in zip(vid_info, vid_href):
-            #     print(entry[0].text)
-            #     print(entry[1].get_attribute('href'))
+    # Takes in a list of topics/keywords and returns mainstream/popular videos of that keywords from youtube.
+    # Sort the search result by popularity and take first 40 links with the following filtration rules
+    def get_topic_videos(self):
                 
-            
-        except Exception as e:
-            print(e)
-            browser.close()
-        finally:
-            browser.close()
+        csv_rows = []
+        for topic in self.topics:
+            topic = topic.lower()
+            # Replace spaces with '+'
+            topic = topic.replace(' ', '+')
+            binary = FirefoxBinary('firefox/firefox-bin')
+            options = webdriver.FirefoxOptions()
+            browser = webdriver.Firefox(firefox_binary=binary, executable_path='./geckodriver', options=options)
+            browser.implicitly_wait(0.5)
+            try:
+                # Search the keyword
+                browser.get("https://www.youtube.com/results?search_query={}".format(topic))
+                # Click on filter_menu
+                expand_filters = browser.find_element(By.XPATH, '/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[1]/div[2]/ytd-search-sub-menu-renderer/div[1]/div/ytd-toggle-button-renderer/a/tp-yt-paper-button')
+                expand_filters.click()
+
+                # Sort videos by views
+                sort_by_rating = browser.find_element(By.XPATH, '/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[1]/div[2]/ytd-search-sub-menu-renderer/div[1]/iron-collapse/div/ytd-search-filter-group-renderer[5]/ytd-search-filter-renderer[3]/a/div/yt-formatted-string')
+                sort_by_rating.click()
+                time.sleep(3)
+                
+                # Scroll down to bottom to load more videos (this makes a total of 40 vids)
+                # browser.execute_script("window.scrollTo(0, document.documentElement.scrollHeight);")
+                # time.sleep(5)
+                
+                # Extract views and upload date
+                # vid_info = browser.find_elements(By.XPATH, '//*[@id="metadata-line"]')
+                # Extract the video url
+                vid_href = browser.find_elements(By.XPATH, '//*[@id="video-title"]')
+                # Extract vid title
+                vid_info = browser.find_elements(By.XPATH, '//*[@id="video-title"]/yt-formatted-string')
+
+                print(len(vid_href))
+                print(len(vid_info))
+                for entry in zip(vid_info,  vid_href):
+                    title = entry[0].text
+                    string = entry[0].get_attribute('aria-label')
+                    url = entry[1].get_attribute('href')
+                    upload_date = re.search(r'\d+ (years?|minutes?|seconds?|days?|weeks?|months?) ago', string).group(0)
+                    remaining_string = string.split(upload_date)[1]
+                    views = remaining_string.split('views')[0].split(' ')[-2]
+                    length = ' '.join(remaining_string.split('views')[0].split(' ')[1:-2])
+                    
+                    print('{} --- {} --- {} --- {} --- {}'.format(topic, title, upload_date, length, views))
+                    csv_rows.append([topic.replace('+',' '), title, url, views, upload_date])
+                    # print(string)
+                    # print('---------------------')
+
+                    # break
+        # After collecting all the videos 
+        # with open(filename, 'w') as csvfile:
+        #     csv_fields = ['Keywords', 'Title', 'URL', 'Views', 'Upload Date']
+        #     csvwriter = csv.writer(csvfile)
+        #     csv.writer.writerow(fields)
+        #     csv.writer.writerows(csv_rows)
+
+            except Exception as e:
+                print(e)
+                browser.close()
+            finally:
+                browser.close()
+
+
+
+    
 
 
 
@@ -57,8 +91,8 @@ class YoutubeExplorer:
 
 def main():
     videos = [v.strip() for v in open('their-tube.json')]
-    youtube = YoutubeExplorer(videos)
-    youtube.get_topic_videos('flat earth')
+    youtube = YoutubeExplorer(videos, ['flat earth'])
+    youtube.get_topic_videos()
 
 
 if __name__ == '__main__':
