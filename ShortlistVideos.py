@@ -60,28 +60,26 @@ class YoutubeExplorer:
                     upload_date = re.search(r'\d+ (years?|minutes?|seconds?|days?|weeks?|months?) ago', string).group(0)
                     remaining_string = string.split(upload_date)[1]
                     views = remaining_string.split('views')[0].split(' ')[-2]
-                    length = ' '.join(remaining_string.split('views')[0].split(' ')[1:-2])
+                    duration = ' '.join(remaining_string.split('views')[0].split(' ')[1:-2])
                     
-                    print('{} --- {} --- {} --- {} --- {}'.format(topic, title, upload_date, length, views))
-                    csv_rows.append([topic.replace('+',' '), title, url, views, upload_date])
+                    print('{} --- {} --- {} --- {} --- {}'.format(topic, title, upload_date, views, duration))
+                    csv_rows.append([topic.replace('+',' '), title, views, upload_date, duration, url])
                     # print(string)
                     # print('---------------------')
 
                     # break
-        # After collecting all the videos 
-        # with open(filename, 'w') as csvfile:
-        #     csv_fields = ['Keywords', 'Title', 'URL', 'Views', 'Upload Date']
-        #     csvwriter = csv.writer(csvfile)
-        #     csv.writer.writerow(fields)
-        #     csv.writer.writerows(csv_rows)
-
             except Exception as e:
                 print(e)
                 browser.close()
             finally:
                 browser.close()
-
-
+        
+        # After collecting all the videos 
+        with open('video_list1.csv', 'w') as csvfile:
+            csv_fields = ['Keywords', 'Title', 'Views', 'Upload Date', 'Duration', 'URL']
+            csvwriter = csv.writer(csvfile)
+            csvwriter.writerow(csv_fields)
+            csvwriter.writerows(csv_rows)
 
     
 
@@ -91,7 +89,8 @@ class YoutubeExplorer:
 
 def main():
     videos = [v.strip() for v in open('their-tube.json')]
-    youtube = YoutubeExplorer(videos, ['flat earth'])
+    # youtube = YoutubeExplorer(videos, ['Flat Earth Debunked', 'Abortion Rights', 'Women Rights', 'Climate Change'])
+    youtube = YoutubeExplorer(videos, ['Abortion Rights', 'Women Rights'])
     youtube.get_topic_videos()
 
 
